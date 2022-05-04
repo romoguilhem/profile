@@ -1,0 +1,92 @@
+body {
+    background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+h1, h3 {
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+.container {
+    /* width: 500px; */
+    text-align: center;
+    margin: 30px auto;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.9);
+}
+
+.card {
+    margin: 20px;
+    padding: 18px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,.9);
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.list-inline {
+    /* list-style: none; */
+    padding: 0px;
+}
+
+#button {
+    background-color: black;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+@media (max-width: 2000px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 1000px;
+    }
+  }
+
+@media (max-width: 1300px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 800px;
+    }
+  }
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+  
